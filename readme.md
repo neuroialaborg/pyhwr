@@ -15,12 +15,16 @@ Se implementa:
 🟢 SessionManager para control de rondas de entrenamiento de escritura ejecutada e imaginada.
 
 🟢 PreExperimentManager para control de rondas de preexperimento, tales como basal, emg y eog.
+
 🟢 SessionInfo para centralizar la información de la sesión, sujeto, tarea, ronda, run, cantidad de trials, nombre BIDS del archivo y demás metadatos necesarios para la ejecución.
+
 🟢 TabletMessenger para gestionar la comunicación entre la PC/Laptop y la tablet mediante *adb*, permitiendo:
   - enviar mensajes con la información de la sesión y del trial,
   - solicitar información a la tablet,
   - leer o descargar los archivos `.json` generados por cada trial.
+
 🟢 MarkerManager para creación y envío de marcadores LSL, tanto para la laptop como para la tablet, de forma de dejar registrados los eventos relevantes de cada fase del experimento.
+
 🟢 DataManagers para carga, lectura y organización de datos adquiridos durante el experimento:
   - `GHiampDataManager` para lectura de archivos `.hdf5` generados por g.HIAMP,
   - `LSLDataManager` para lectura de archivos `.xdf`, recuperación de streams, reconstrucción de trials, acceso a coordenadas, letras, timestamps, delays de pendown y demás información útil para análisis posteriores.
@@ -28,12 +32,19 @@ Se implementa:
   - `InitAPP` para inicialización general del flujo de trabajo,
   - `RunConfigurationApp` para configuración de parámetros de sesión, tarea, duración de fases, letras, cantidad de runs y trials,
   - `LauncherApp` para monitoreo y control de la sesión en tiempo real.
+
 🟢Componentes gráficos auxiliares, como `SquareWidget`, para mostrar indicadores visuales, mensajes y estados durante la ejecución.
+
 🟢 Integración con `StimuliWindow` para presentación local de estímulos en rondas de preexperimento.
+
 🟢 Generación y organización de sesiones bajo una lógica consistente con nombres tipo BIDS, facilitando el almacenamiento posterior de los archivos generados.
+
 🟢 Soporte para rondas con duraciones fijas o aleatorias en fases como cue y rest, según la configuración seleccionada.
+
 🟢 Gestión completa del flujo experimental: inicio de sesión, inicio y fin de run, avance de trial, cambios de fase, registro temporal de eventos y cierre de sesión.
+
 🟢 Recuperación de coordenadas de escritura, eventos `penDown` y `penUp`, tiempos de inicio y fin de cada fase, y sincronización de esta información con los marcadores enviados durante la sesión.
+
 🟢 Base funcional para análisis offline de señales, comportamiento y trazos registrados durante el experimento.
 
 ### 🚀 Iniciar una ronda
