@@ -13,6 +13,7 @@ La aplicación de la tablet puede encontrarse en [Handwriting Project - Android 
 Se implementa:
 
 🟢 SessionManager para control de rondas de entrenamiento de escritura ejecutada e imaginada.
+
 🟢 PreExperimentManager para control de rondas de preexperimento, tales como basal, emg y eog.
 🟢 SessionInfo para centralizar la información de la sesión, sujeto, tarea, ronda, run, cantidad de trials, nombre BIDS del archivo y demás metadatos necesarios para la ejecución.
 🟢 TabletMessenger para gestionar la comunicación entre la PC/Laptop y la tablet mediante *adb*, permitiendo:
