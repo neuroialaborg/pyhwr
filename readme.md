@@ -6,9 +6,17 @@ Proyecto para estudiar la factibilidad de decodificación del trazo continuo de 
 
 Este repositorio contiene los script en Python para generar, gestionar y almacenar eventos. Enviar mensajes hacia la tablet donde se presentan los estímulos, recibir mensajes de la tablet, entre otras tareas.
 
-La aplicación de la tablet puede encontrarse en [Handwriting Project - Android app](https://github.com/lucasbaldezzari/handwritingrecording)
+Un resumen de la aplicación de la tablet que registra los trazos de las letras dibujadas puede encontrarse en [Handwriting Project - Android app](https://github.com/neuroialaborg/handwritingrecording)
 
-#### Versión 2.0.0
+## Autor MSc. BALDEZZARI LUCAS
+
+💻 Github: [lucasbaldezzari](https://github.com/lucasbaldezzari)
+
+📄 CVUY: [CV Lucas Baldezzari](https://exportcvuy.anii.org.uy/cv/?ce2da83661958a08b41a1469b83e1d91)
+
+🟦 Linkedin: [Lucas Baldezzari](https://www.linkedin.com/in/lucasbaldezzari)
+
+## Versión 2.0.0
 
 Se implementa:
 
@@ -53,7 +61,7 @@ Para ejecutar una ronda se puede hacer desde consola:
 
 > python -m pyhwr.widgets.InitAPP
 
-NOTA: Se recomienda crear un environment, activarlo y ejecutar luego.
+NOTA: Se recomienda crear un environment en conda, activar el ambiente, instalar las dependencias y ejecutar luego el comando mencionado arriba.
 
 ## Cominucación USB
 
