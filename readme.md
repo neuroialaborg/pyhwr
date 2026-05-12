@@ -71,6 +71,32 @@ Para instalar *adb* se debe ingresar a la página oficial de Android Developers 
 
 NOTA: Podes encontrar la versión utilizada en este proyecto dentro de la carpeta [adb](https://github.com/lucasbaldezzari/pyhwr/tree/main/adb) de este repositorio.
 
+## Demostración aplicación tablet
+
+El gif de abajo muestra la aplicación de la tablet en funcionamiento (más info [acá](https://github.com/neuroialaborg/handwritingrecording)). Los trazos son dibujados por una persona voluntaria y la tablet registra toda la información necesaria para el posterior análisis.
+
+<p align="center">
+  <a href="figuras/demo_gif.gif">
+    <img src="figuras/demo_gif.gif" width="640">
+  </a>
+</p>
+
+### Trazos registrados
+
+Debajo pueden verse los trazos registrados para una de las rondas de experimento sobre una persona voluntaria.
+
+<p align="center">
+  <a href="figuras/a.png">
+    <img src="figuras/a.png" width="240">
+  </a>
+</p>
+
+<p align="center">
+  <a href="figuras/all_traces.png">
+    <img src="figuras/all_traces.png" width="640">
+  </a>
+</p>
+
 # ❗️IMPORTANTE❗️
 
 El repositorio completo se encuentra en [https://github.com/lucasbaldezzari/pyhwr](https://github.com/lucasbaldezzari/pyhwr). Próximamente será movido a la organización.
