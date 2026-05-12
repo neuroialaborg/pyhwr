@@ -89,7 +89,7 @@ Una sóla letra:
 
 <p align="center">
   <a href="figuras/a.png">
-    <img src="figuras/a.png" width="480">
+    <img src="figuras/a.png" width="640">
   </a>
 </p>
 
