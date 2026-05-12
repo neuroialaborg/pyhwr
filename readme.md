@@ -85,11 +85,15 @@ El gif de abajo muestra la aplicación de la tablet en funcionamiento (más info
 
 Debajo pueden verse los trazos registrados para una de las rondas de experimento sobre una persona voluntaria.
 
+Una sóla letra:
+
 <p align="center">
   <a href="figuras/a.png">
-    <img src="figuras/a.png" width="240">
+    <img src="figuras/a.png" width="480">
   </a>
 </p>
+
+Todas las letras para una ronda ejecutada.
 
 <p align="center">
   <a href="figuras/all_traces.png">
